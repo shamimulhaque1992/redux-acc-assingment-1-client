@@ -27,11 +27,11 @@ const Navbar = ({ modalHandler }) => {
         </Link>
         <select className="text-black font-bold h-12 rounded-md cursor-pointer" onChange={(e) => postSort(e.target.value)}>
           <option className="text-lg">Sort type</option>
-          <option className="text-lg" value="Latest to Oldest">
-            Latest to Oldest
+          <option className="text-lg" value="First Upload">
+            First Upload
           </option>
-          <option className="text-lg" value="Oldest To Latest">
-            Oldest To Latest
+          <option className="text-lg" value="Last Upload">
+            Last Upload
           </option>
         </select>
         <li>
